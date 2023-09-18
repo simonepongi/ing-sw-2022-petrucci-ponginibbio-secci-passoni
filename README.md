@@ -84,6 +84,6 @@ Se non si specifica il valore della porta viene usato il valore di default: __61
 
 ## Componenti del gruppo
 - [__Luca Petrucci__](https://github.com/l-pt)
-- [__Simone Ponginibbio__](https://github.com/simonepongi)
+- [__Simone Ponginibbio__](https://github.com/simoneponginibbio)
 - [__Paolo Secci__](https://github.com/paolosecci)
 - [__Matteo Passoni__](https://github.com/matteopassoni)
