@@ -1,7 +1,15 @@
-# Prova Finale di Ingegneria del Software - AA 2021-2022
+# Game Board Implementation
+
+[![License: MIT][license-image]][license]
+
+Final project of "**Ingegneria del Software**" 2021-2022 held by Professor <a href="https://cugola.faculty.polimi.it/">**Gianpaolo Cugola**</a> at Politecnico di Milano.
+
 ![alt text](src/main/resources/Eriantys.jpg)
 
-Il progetto consiste nell'implementazione del gioco da tavolo [ERIANTYS](http://www.craniocreations.it/prodotto/eriantys/) in linguaggio Java. In particolare si tratta di un sistema distribuito composto da un singolo server in grado di gestire più partite contemporaneamente e multipli client (CLI o GUI) che possono partecipare ad una sola partita alla volta. Sono stati utilizzati il pattern MVC (Model-View-Controller) per progettare l'intero sistema e i socket TCP per la gestione della rete. Server e client si scambiano messaggi in formato Json per una migliore gestione della comunicazione.
+Il progetto consiste nell'implementazione del gioco da tavolo [**ERIANTYS**](http://www.craniocreations.it/prodotto/eriantys/) in linguaggio Java.<br>
+In particolare si tratta di un sistema distribuito composto da un singolo server in grado di gestire più partite contemporaneamente e multipli client (CLI o GUI) che possono partecipare ad una sola partita alla volta.<br>
+Sono stati utilizzati il pattern MVC (Model-View-Controller) per progettare l'intero sistema e i socket TCP per la gestione della rete.<br>
+Server e client si scambiano messaggi in formato Json per una migliore gestione della comunicazione.
 
 #### Regole del gioco:
 - [Italiano](src/main/resources/documents/eriantys_regole.pdf)
@@ -87,3 +95,12 @@ Se non si specifica il valore della porta viene usato il valore di default: __61
 - [__Simone Ponginibbio__](https://github.com/simoneponginibbio)
 - [__Paolo Secci__](https://github.com/paolosecci)
 - [__Matteo Passoni__](https://github.com/matteopassoni)
+
+<h2>Copyright and license</h2>
+
+This project is copyright 2023.
+
+Licensed under the **[MIT License][license]**; you may not use this software except in compliance with the License.
+
+[license]: https://github.com/simoneponginibbio/Board_Game_Implementation/blob/main/LICENSE
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
